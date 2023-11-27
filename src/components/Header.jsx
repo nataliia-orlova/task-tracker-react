@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <header className="header">
             <h1>Task Tracker</h1>
-            <Button onClick={onClick} color="green" text="Add" />
+            <Button onClick={onClick} color="red" text="Add" />
         </header>
     );
 }
