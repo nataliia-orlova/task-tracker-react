@@ -6,7 +6,7 @@ export default function Task({ task, onDelete, onToggle }) {
         //use template literal for the expression
         <div
             className={`task ${task.reminder ? 'reminder' : ''}`}
-            onClick={() => onToggle(task.id)}
+            onDoubleClick={() => onToggle(task.id)}
         >
             <h3>
                 {task.text}
